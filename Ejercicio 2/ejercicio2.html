@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/script/ejercicio2.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Elige tus Stickers!</h1>
+    <p>(max.10 unidades en total)</p>
+    <div class="sticker-container">
+        <div class="tarjeta-img">
+            <img class="sticker1"
+                src="https://stickershop.line-scdn.net/stickershop/v1/product/15080/LINEStorePC/main.png;compress=true"
+                alt="Sticker 1">
+            <form>
+                <input type="number" id="sticker1Count" placeholder="Cantidad de stickers" min="0" max="10">
+            </form>
+        </div>
+        <div class="tarjeta-img">
+            <img class="sticker2"
+                src="https://stickershop.line-scdn.net/stickershop/v1/product/15089/LINEStorePC/main.png;compress=true"
+                alt="Sticker 2">
+            <form>
+                <input type="number" id="sticker2Count" placeholder="Cantidad de stickers" min="0" max="10">
+                
+            </form>
+        </div>
+        <div class="tarjeta-img">
+            <img class="sticker3"
+                src="https://stickershop.line-scdn.net/stickershop/v1/product/15067/LINEStorePC/main.png;compress=true"
+                alt="Sticker 3">
+            <form>
+                <input type="number" id="sticker3Count" placeholder="Cantidad de stickers" min="0" max="10">
+                
+            </form>
+        </div>
+    </div>
+    <button id="calcularBtn">Calcular Total</button>
+    <p class="Resultado"></p>
+</body>
+
+</html>
